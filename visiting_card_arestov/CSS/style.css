@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  background-color: rgb(245, 249, 252);
+  min-height: 100vh;
+  font-family: Nunito, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.link {
+  transition: color 0.3s;
+}
+
+.link:hover {
+  color: cornflowerblue;
+}
+
+.header {
+  padding: 10px;
+  border-bottom: 3px double teal;
+  text-align: center;
+  flex-grow: 0;
+}
+
+.navigation-link {
+  margin: 0 12px;
+  color: green;
+}
+
+.main {
+  margin: 0 auto;
+  width: 1200px;
+  flex-grow: 1;
+}
+
+.my-resume {
+  display: flex;
+}
+
+.img-wrapper {
+  background-color: lightgray;
+  padding: 5px;
+  text-align:center;
+  margin-bottom: 50px;
+  width: 330px;
+}
+
+.shortly-about-me {
+  padding-left: 50px;
+}
+
+.subtitle-wrap {
+  display: flex;
+  align-items: center;
+}
+
+.img {
+  border: 2px solid gray;
+}
+
+.title {
+  color: rgb(88, 86, 86);
+  text-align: center;
+  font-family: Spectral, serif;
+  margin: 10px;
+}
+
+.subtitle {
+  padding-left: 11px;
+  color: rgb(119, 50, 50);
+  margin: 0;
+  font-family: Spectral, serif;
+  font-style: Italic;
+}
+
+.phone-number {
+  margin: 4px;
+}
+
+.footer-link {
+  color: white;
+}
+
+.footer {
+  border-top: 3px double teal;
+  height: 60px;
+  padding: 2px;
+  text-align: center;
+  background-color: rgb(41, 42, 45);
+  color: white;
+  flex-grow: 0;
+}
+
+#work-experience {
+  color: green;
+}
