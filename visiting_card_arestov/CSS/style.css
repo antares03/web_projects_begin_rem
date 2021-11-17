@@ -90,3 +90,7 @@ body {
   color: white;
   flex-grow: 0;
 }
+
+#work-experience {
+  color: green;
+}
